@@ -1,0 +1,19 @@
+.platforms {
+  margin-top: 4%;
+  width: 100%;
+}
+
+.headingPlatform {
+  font-size: 20px;
+  margin-left: 1%;
+  font-family: "Fredoka One", cursive;
+  color: #495159;
+  /* font-weight: 600; */
+}
+
+@media screen and (max-width: 600px) {
+  .headingPlatform {
+    margin-bottom: -5%;
+    margin-left: 5%;
+  }
+}

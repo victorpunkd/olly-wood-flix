@@ -1,0 +1,31 @@
+.genreCard {
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: 0px 30px 15px -20px #768092;
+  cursor: pointer;
+}
+
+.genrePicture {
+  filter: brightness(60%);
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.genreName {
+  font-size: 25px;
+  color: white;
+  font-family: "Bangers", cursive;
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .genreCard {
+    margin-top: 12%;
+  }
+}

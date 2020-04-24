@@ -1,0 +1,17 @@
+.platformCard {
+  width: 100%;
+  padding: 2% 2%;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.logoImage {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .platformCard {
+    margin-top: 6%;
+  }
+}

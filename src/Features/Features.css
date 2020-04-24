@@ -1,0 +1,21 @@
+.features {
+  margin-top: 2%;
+  width: 100%;
+}
+
+.heading {
+  font-size: 20px;
+  margin-left: 1%;
+  font-family: "Fredoka One", cursive;
+  color: #495159;
+  /* font-weight: 600; */
+}
+
+/* For all size of mobile screens, screen width 600px or smaller */
+
+@media screen and (max-width: 600px) {
+  .heading {
+    margin-bottom: -5%;
+    margin-left: 5%;
+  }
+}
